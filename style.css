@@ -1,0 +1,26 @@
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  background-color: black;
+  color: bisque;
+  border-radius: 8px;
+}
+
+.field:not(:last-child) {
+  margin-right: 3px;
+}
+
+.value {
+  font-size: 52px;
+}
+
+.label {
+  font-size: 28px;
+}
